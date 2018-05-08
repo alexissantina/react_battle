@@ -1,8 +1,9 @@
 # react_battle
 from tyler mcginnis tutorial
 
-
+For reference, these are the npm package dependencies that will be installed when you run `npm install`:
 `npm init`
+`npm install --save react react-dom`
 `npm install --save-dev
   babel-core
   babel-loader

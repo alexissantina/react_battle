@@ -18,3 +18,8 @@ class App extends React.component {
 		)
 	}
 }
+
+ReactDOM.render(
+	<App />,
+	document.getElementById('app')	
+);

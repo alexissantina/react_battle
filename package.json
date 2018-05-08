@@ -1,0 +1,29 @@
+{
+  "name": "react_battle",
+  "version": "1.0.0",
+  "description": "from tyler mcginnis tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava 'app/**/*.test.js' --verbose --require ./other/setup-ava-tests.js",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexissantina/react_battle.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexissantina/react_battle/issues"
+  },
+  "homepage": "https://github.com/alexissantina/react_battle#readme",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "webpack": "^4.8.1"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0"
+  }
+}

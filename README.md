@@ -3,7 +3,7 @@ from tyler mcginnis tutorial
 
 For reference, these are the npm package dependencies that will be installed when you run `npm install`:
 `npm init`
-`npm install --save react react-dom`
+`npm install --save react react-dom`  // Required to build the app
 `npm install --save-dev
   babel-core
   babel-loader
@@ -14,4 +14,4 @@ For reference, these are the npm package dependencies that will be installed whe
   html-webpack-plugin
   webpack
   webpack-dev-server
-  webpack-cli`
+  webpack-cli` // Required to run the app
